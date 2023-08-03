@@ -1,0 +1,24 @@
+# Excluir el archivo requirements.txt
+requirements.txt
+
+# Excluir directorios generados por IDEs
+.idea/
+.vscode/
+
+# Excluir directorio de entorno virtual de Python (si lo tienes)
+venv/
+
+# Excluir archivos de caché y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycachefile
+
+# Excluir archivos de base de datos SQLite (cambia según la extensión de tu base de datos)
+*.sqlite3
+
+# Excluir archivos generados por setuptools y pip
+*.egg-info/
+dist/
+build/
